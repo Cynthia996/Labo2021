@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <style>
+        h1{
+            color: blanchedalmond;
+            background-color: blueviolet;
+            text-align: center;
+        }
+        h2{
+            font-size: xx-large;
+        }
+        input{
+            background-color:  rgb(174, 143, 202);
+            color:white;
+            
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Lista Clientes</h1>
+    <section class="crud">
+        <article>
+            <h2 class="crud-title">Ingresar Datos</h2>
+            <form class="crud-form">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <br>
+                <input type="text" name="apellido" placeholder="Apellido" required>
+                <br>
+                <input type="text" name="localidad" placeholder="Localidad" required>
+                <br>
+                <input type="hidden" name="id">
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+            </form>
+        </article>
+        <article>
+            <h2>Visualizar Datos</h2>
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Localidad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+        
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <template id="crud-template">
+        <tr>
+            <td class="Nombre"></td>
+            <td class="Apellido"></td>
+            <td class="Localidad"></td>
+            <td>
+                <button class ="edit">Editar</button>
+                <button class ="delete">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
+    <script src="Crudfetch.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    "personas":[
+        {
+            "id": 1,
+            "nombre": "Cynthia",
+            "apellido": "Impini",
+            "email":"cynthiaimpini@gmail.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Prueba 2",
+            "apellido": "Prueba2 Prueba2",
+            "email":"prueba@gmail.com"
+        },
+        {
+            "id": 3,
+            "nombre": "Prueba 3",
+            "apellido": "Prueba3 Prueba3",
+            "email":"prueba@gmail.com"
+      
+        },
+        {
+            "id": 4,
+            "nombre": "Prueba 4",
+            "apellido": "Prueba4 Prueba4",
+            "email":"prueba@gmail.com"
+        },
+        {
+            "id": 5,
+            "nombre": "Prueba 5",
+            "apellido": "Prueba5 Prueba5",
+            "email":"prueba@gmail.com"
+        }
+      
+      ]
+  }
